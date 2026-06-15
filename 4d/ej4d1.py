@@ -35,8 +35,11 @@ Exemple:
 """
 
 def sum():
-    # Write here your code
-    pass
+    n1 = int(input("Insert the first number: "))
+    n2 = int(input("Insert the second number: "))
+    resultado = n1 + n2
+    print("Result:", resultado)
+    return resultado
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
